@@ -1,0 +1,16 @@
+Package: pack
+Type: Package
+Title: Compare Three Momentum Strategies
+Version: 1.0
+Date: 2015-01-28
+Author: Yolanda Zhao and Ziqi Lu
+Maintainer: <zl1@willims.edu>  or  <fz3@williams.edu>
+Description: The package compares three momentum strategies in the US stock market based on the large cap data from 1998 to 2007. The data is given by Professor David Kane in Williams College.
+LazyData: TRUE
+Depends:
+    dplyr,
+    ws.data,
+    lubridate,
+    tidyr,
+    ggplot2,
+    xtable

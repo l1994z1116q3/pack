@@ -1,0 +1,18 @@
+Import <- function() {
+    library("ws.data")
+    library("dplyr")
+    library("ggplot2")
+    library("lubridate")
+    data(secref)
+    data(yearly)
+    data("daily.1998")
+    data("daily.1999")
+    data("daily.2000")
+    data("daily.2001")
+    data("daily.2002")
+    data("daily.2003")
+    data("daily.2004")
+    data("daily.2005")
+    data("daily.2006")
+    data("daily.2007")
+}
